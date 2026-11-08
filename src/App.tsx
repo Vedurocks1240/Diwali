@@ -32,7 +32,7 @@ export default function App() {
           <div className="diya" aria-hidden="true"><div className="flame" /><div className="bowl" /></div>
           <h1>{title}<span className="cursor" /></h1>
           <p className="sub">
-            Wishing you light, love and happiness, from <b>{NAME}</b> and everyone at <b>{COMPANY}</b>.
+            Wishing you light, love and happiness, from <b>{NAME}</b> and <b>{COMPANY}</b>.
           </p>
           <p className="hint">Tap anywhere for fireworks</p>
         </section>
