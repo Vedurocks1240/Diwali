@@ -8,7 +8,7 @@ export default function WishMaker() {
   const [started, setStarted] = useState(false);
   const [copied, setCopied] = useState(false);
 
-  const message = `Happy Diwali, ${to.trim() || "Friend"}! ${WISHES[pick]}\n\nWith love, ${NAME} (${COMPANY})`;
+  const message = `Happy Diwali, ${to.trim() || "Friend"}! ${WISHES[pick]}\n\nWith love,`;
   const typed = useTyped(message, 15, started);
 
   const make = () => {
